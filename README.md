@@ -20,7 +20,7 @@ email - test123@gmail.com
 # Quadb-Tech Task Manager
 
 ## Overview
-Quadb-Tech Task Manager is a task management application built using **React, Redux, and Gemini AI**. It allows users to create task categories, add tasks, manage them efficiently, and even get AI-powered suggestions for achieving tasks.
+Quadb-Tech Task Manager is a task management application built using **Next, Redux, and Gemini AI**. It allows users to create task categories, add tasks, manage them efficiently, and even get AI-powered suggestions for achieving tasks.
 
 ## Features
 
