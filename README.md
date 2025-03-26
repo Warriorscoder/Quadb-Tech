@@ -17,47 +17,49 @@ Credentials -
 name - test ,
 email - test123@gmail.com
 
-Quadb-Tech Task Manager
-Overview
-Quadb-Tech Task Manager is a task management application built using React, Redux, and Gemini AI. It allows users to create task categories, add tasks, manage them efficiently, and even get AI-powered suggestions for achieving tasks.
+# Quadb-Tech Task Manager
 
-Features
-✅ Sign-up Without Backend Using Redux
-The app provides a frontend-only sign-up system, utilizing Redux for managing user authentication.
+## Overview
+Quadb-Tech Task Manager is a task management application built using **React, Redux, and Gemini AI**. It allows users to create task categories, add tasks, manage them efficiently, and even get AI-powered suggestions for achieving tasks.
 
-No backend is required, ensuring a seamless, lightweight experience.
+## Features
 
-✅ Full CRUD Operations on Tasks Managed by Redux
-Redux is used to handle all task-related operations, including:
+### ✅ Sign-up Without Backend Using Redux
+- The app provides a **frontend-only sign-up** system, utilizing **Redux** for managing user authentication.
+- No backend is required, ensuring a seamless, lightweight experience.
 
-Creating tasks
+### ✅ Full CRUD Operations on Tasks Managed by Redux
+- Redux is used to handle **all task-related operations**, including:
+  - **Creating tasks**
+  - **Updating tasks**
+  - **Deleting tasks**
+  - **Fetching tasks from local storage**
+- The state management is **fully controlled by Redux**, ensuring **high performance and reliability**.
 
-Updating tasks
+### ✅ Multiple Task Categories
+- Users can create **multiple categories** to organize their tasks effectively.
+- Each category can contain multiple tasks, helping users manage work **efficiently and systematically**.
 
-Deleting tasks
+### ✅ AI-Powered Task Suggestions Using Gemini API
+- The app integrates **Google's Gemini AI API** to provide step-wise suggestions on **how to achieve a task**.
+- Users can click **"Ask AI"**, and the app will generate **personalized recommendations** for completing the task.
 
-Fetching tasks from local storage
+### ✅ API Call Handling via Redux
+- The API call to **fetch AI suggestions** is managed using **Redux Thunks**.
+- This ensures **efficient state management** and prevents unnecessary re-renders.
 
-The state management is fully controlled by Redux, ensuring high performance and reliability.
+### ✅ Modern UI with Aceternity UI in Sign-up Page
+- The **sign-up page** features a sleek **Aceternity UI background**, enhancing the **user experience**.
+- Provides a **modern, visually appealing interface**.
 
-✅ Multiple Task Categories
-Users can create multiple categories to organize their tasks effectively.
+---
 
-Each category can contain multiple tasks, helping users manage work efficiently and systematically.
+## Installation & Setup
 
-✅ AI-Powered Task Suggestions Using Gemini API
-The app integrates Google's Gemini AI API to provide step-wise suggestions on how to achieve a task.
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/Warriorscoder/Quadb-Tech.git
+cd Quadb-Tech
 
-Users can click "Ask AI", and the app will generate personalized recommendations for completing the task.
-
-✅ API Call Handling via Redux
-The API call to fetch AI suggestions is managed using Redux Thunks.
-
-This ensures efficient state management and prevents unnecessary re-renders.
-
-✅ Modern UI with Aceternity UI in Sign-up Page
-The sign-up page features a sleek Aceternity UI background, enhancing the user experience.
-
-Provides a modern, visually appealing interface.
 
 
